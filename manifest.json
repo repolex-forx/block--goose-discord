@@ -43,6 +43,62 @@
       ],
       "ast": [
         "aggregate/ast/b70a363d73409f9bd0b15aabc17e60f94ad82d88/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b70a363d73409f9bd0b15aabc17e60f94ad82d88.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "discord-py",
+          "ecosystem": "PYPI",
+          "version": "2.3.0",
+          "githubOrg": "Rapptz",
+          "githubRepo": "discord.py",
+          "githubCommit": "c785e4ba755e9b25c36953bdb0ffc34b41fe24d7",
+          "githubTag": "v2.3.0",
+          "githubUrl": "https://github.com/Rapptz/discord.py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "python-dotenv",
+          "ecosystem": "PYPI",
+          "version": "1.0.0",
+          "githubOrg": "theskumar",
+          "githubRepo": "python-dotenv",
+          "githubCommit": "d0684d1c092fb6a9a208a09d43f02e4876ee8196",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/theskumar/python-dotenv",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.0.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3554b833c24f541af5c7272e47cfa52b89d8138d",
+          "githubTag": "7.0.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "23.0.0",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.1.0",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "172ac2c9a27040e4a60726f82cabed6166af094a",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

@@ -36,10 +36,46 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/b70a363d73409f9bd0b15aabc17e60f94ad82d88/chunk-001.nq.gz",
       "repolex:graphFileSize": 952041
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/b70a363d73409f9bd0b15aabc17e60f94ad82d88.nq.gz",
+      "repolex:graphFileSize": 74325
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T10:02:46.153149+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/Rapptz/discord.py",
+      "repolex:packageName": "discord-py",
+      "git:hexsha": "c785e4ba755e9b25c36953bdb0ffc34b41fe24d7",
+      "git:tagName": "v2.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/theskumar/python-dotenv",
+      "repolex:packageName": "python-dotenv",
+      "git:hexsha": "d0684d1c092fb6a9a208a09d43f02e4876ee8196",
+      "git:tagName": "v1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "3554b833c24f541af5c7272e47cfa52b89d8138d",
+      "git:tagName": "7.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/psf/black",
+      "repolex:packageName": "black"
+    },
+    {
+      "@id": "https://repolex.ai/r/astral-sh/ruff",
+      "repolex:packageName": "ruff",
+      "git:hexsha": "172ac2c9a27040e4a60726f82cabed6166af094a",
+      "git:tagName": "v0.1.0"
+    }
+  ]
 }
