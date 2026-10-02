@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/goose-discord/commit/b70a363d73409f9bd0b15aabc17e60f94ad82d88",
       "git:hexsha": "b70a363d73409f9bd0b15aabc17e60f94ad82d88",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
